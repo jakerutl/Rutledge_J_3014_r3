@@ -29,12 +29,6 @@ body{
 }
 
 
-
-.userLabels{
-  color: black;
-  font: 14px Helvetica, Arial;
-}
-
 .topBar{
   width: 100%;
   height: 80px;
@@ -108,7 +102,7 @@ label{
 }
 
 .logOutBtn a:hover{
-  color: #5d5d5d;
+  color: #dee3e5;
 }
 
 
@@ -133,4 +127,154 @@ label{
   margin: 0;
   padding-top: 60px;
   padding-left: 30px;
+}
+
+.deBtns{
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.deBtns a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #343a51;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.deBtn a:hover{
+  color: #5d5d5d;
+}
+
+
+.delPage{
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.editPage{
+  margin: 0;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.list{
+  width: 500px;
+margin: 0 auto;
+margin-top: 100px;
+background-color: #dee3e5;
+padding: 8px;
+border: solid #343a51 0.5px;
+border-radius: 5px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.list h3{
+  margin: 0;
+  margin-left: 0;
+  float: left;
+}
+
+.list a{
+  margin: 0;
+  float: right;
+  text-decoration: none;
+  padding: 7px;
+  color: white;
+  background-color: #343a51;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.list a:hover{
+  color: #dee3e5;
+}
+
+.editForm{
+  margin: 0 auto;
+  margin-right: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  /* text-align: center; */
+}
+
+
+.userLabels{
+  color: black;
+  font: 14px Helvetica, Arial;
+}
+
+.editLabels{
+  color: black;
+  font: 14px Helvetica, Arial;
+  float: left;
+  margin-left: 25px;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.editInput{
+  float: right;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+.editDiv{
+  padding-top: 40px;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #dee3e5;
+  border: solid #343a51 0.5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#saveUser{
+  margin-top: 30px;
+  float: left;
+  margin-left: 25px;
+  font-size: 1.17em;
+  font-weight: bold;
+  background-color: #343a51;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor:pointer;
+}
+
+#saveUser:hover{
+  color: #dee3e5;
+
+}
+
+
+#createUser{
+  margin-top: 10px;
+  float: left;
+  margin-left: 25px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #343a51;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  transition: 0.2s;
+  cursor:pointer;
+}
+
+h4{
+  margin-top: 70px;
+  text-align: center;
+}
+
+.lvl{
+  float: right;
+  margin-right: 25px;
 }

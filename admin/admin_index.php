@@ -45,8 +45,10 @@
 <br>
 	<h4 class="TimeStamp">Last successful login: <?php echo $_SESSION['user_last']; ?></h4>
 
+<div class="deBtns">
 	<a href="admin_edituser.php">Edit User</a>
-	<a href="admin_deleteuser.php">Delete User</a>
+	<a href="admin_deleteuser.php">Delete Users</a>
+</div>
 
 </div>
 </div>

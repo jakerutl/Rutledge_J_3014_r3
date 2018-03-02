@@ -52,23 +52,23 @@ confirm_logged_in();
   	<div class="middle">
 <h2 class="createUser">Create User</h2>
 
-<div class="user_signup" >
+<div class="editDiv" >
 <?php  if(!empty($message)){echo $message;} ?>
-<form class="signupForm" action="admin_createuser.php" method="post">
-  <label class="userLabels">First Name:</label>
-  <input type="text" name="fname" value=""><br><br>
-  <label class="userLabels">Username:</label>
-  <input type="text" name="username" value=""><br><br>
+<form class="editForm" action="admin_createuser.php" method="post">
+  <label class="editLabels">First Name:</label>
+  <input class="editInput" type="text" name="fname" value=""><br><br>
+  <label class="editLabels">Username:</label>
+  <input class="editInput" type="text" name="username" value=""><br><br>
   <!-- <label class="userLabels">Password:</label>
   <input type="text" name="password" value=""><br><br> -->
-  <label class="userLabels">Email:</label>
-  <input type="text" name="email" value=""><br><br>
-  <select name="lvllist">
+  <label class="editLabels">Email:</label>
+  <input class="editInput" type="text" name="email" value=""><br><br>
+  <select class="lvl" name="lvllist">
       <option value="">Select User Level</option>
       <option value="2">Web Admin</option>
       <option value="1">Web Master</option>
   </select><br><br>
-  <input type="submit" name="submit" value="Create User">
+  <input id="createUser" type="submit" name="submit" value="Create User">
   <h4>Random password will be <br>sent to you via email</h4>
 </form>
 </div>

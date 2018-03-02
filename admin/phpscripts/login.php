@@ -37,12 +37,14 @@
 					if($founduser['user_new'] > 0){ // if the user has a user_new of less then 0 then they will be redirected to edit_user page
 						$newnum = $founduser['user_new'] + 1;
 						$newquery = "UPDATE `tbl_user` SET `user_new` = {$newnum} WHERE `user_id` = {$id}";
-						$new_run = mysqli_query($link, $newquery);
+						redirect_to("admin_index.php");
 					}else{
+						$newnum = $founduser['user_new'] + 1;
+						$newquery = "UPDATE `tbl_user` SET `user_new` = {$newnum} WHERE `user_id` = {$id}";
 						redirect_to("admin_edituser.php");
 					}
 				}
-				redirect_to("admin_index.php"); //once a user has logged in more than once they'll be redirected to admin_index page
+				// redirect_to("admin_index.php"); //once a user has logged in more than once they'll be redirected to admin_index page
 
 			}else if($founduser['user_fail'] < 3){
 				$num = $founduser['user_fail'] + 1;

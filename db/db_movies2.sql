@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Mar 01, 2018 at 11:08 PM
+-- Generation Time: Mar 02, 2018 at 01:11 AM
 -- Server version: 5.6.35
 -- PHP Version: 7.1.1
 
@@ -1039,7 +1039,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`user_id`, `user_fname`, `user_name`, `user_pass`, `user_email`, `user_date`, `user_ip`, `user_last`, `user_fail`, `user_level`, `user_new`) VALUES
-(35, 'Jacob', 'jaker145', '$2y$10$RPrRkr3/ybteOHkIx0jUGuv/o2QGAsC.pkxKrse9BwSenw6V9.ROy', 'jakerutl@gmail.com', '2018-02-23 06:37:08', '::1', '2018-03-02 04:02:11', 0, '2', 0);
+(35, 'Jacob', 'jaker145', '$2y$10$RPrRkr3/ybteOHkIx0jUGuv/o2QGAsC.pkxKrse9BwSenw6V9.ROy', 'jakerutl@gmail.com', '2018-02-23 06:37:08', '::1', '2018-03-02 05:05:00', 0, '2', 0);
 
 --
 -- Indexes for dumped tables
@@ -1236,7 +1236,7 @@ ALTER TABLE `tbl_urating`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `user_id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
+  MODIFY `user_id` mediumint(8) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=108;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
