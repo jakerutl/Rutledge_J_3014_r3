@@ -18,19 +18,23 @@ $info = mysqli_fetch_array($popForm);
   }
  ?>
 
- <!doctype html>
- <html>
+ <!DOCTYPE html>
+ <html lang="en">
  <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
- <title>Welcome to your admin panel login</title>
- <link rel="stylesheet" href="css/main.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Create User</title>
+ 	<link rel="stylesheet" href="../css/reset.css">
+ 	<link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+
  </head>
- <body>
+<body>
 
  <header class="topBar" >
  	<div class="logOutBtn">
- 		<a href="admin_login.php?logout=true" class="logout-link">Logout</a>
+ 		<a href="../index.php?logout=true" class="logout-link">Logout</a>
  		<a href="admin_index.php" class=" logout-link">Home</a>
  	</div>
  </header>
@@ -54,6 +58,8 @@ $info = mysqli_fetch_array($popForm);
   <input id="saveUser" type="submit" name="submit" value="Save User">
 </form>
 </div>
+
+
 
 </div>
 </div>

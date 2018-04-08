@@ -3,7 +3,7 @@
 	$user = "root";
 	$pass = "root";
 	$url = "localhost";
-	$db = "db_movies2";
+	$db = "db_cms";
 
 	// $user = "jake";
 	// $pass = "rutledge12";

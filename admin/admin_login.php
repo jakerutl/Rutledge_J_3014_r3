@@ -23,25 +23,33 @@
 <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
+<body class="loginBody">
 
-	<header class="topBar" >
+	<!-- <header class="topBar" > -->
+	<div class="panel">
+		<h1 class="lastLogin"> Login Now!</h1>
 		<form action="admin_login.php" method="post">
 			<h2 class="error"><?php if(!empty($message)){ echo $message;} ?></h2>
-			<label>Username:</label>
-			<input type="text" name="username" value="">
-			<label>Password</label>
-			<input type="password" name="password" value="">
+			<div id="partOne">
+			<label class="editLabels">Username:</label>
+			<input class="editInput"type="text" name="username" value="">
+		</div>
+		<div id="partTwo">
+			<label class="editLabels">Password:</label>
+			<input class="editInput" type="password" name="password" value="">
 			<!-- <input class="btn" type="submit" name="submit" value="Sign In"> -->
+		</div>
 			<button class="btn" type="submit" name="submit">Sign In</button>
-		</form>
-	</header>
 
-	<div class="mainBody">
+		</form>
+		<a href="../index.php"><h4 id="back">Click here to go back</h4></a>
+	</div>
+
+
+	<!-- <div class="mainBody">
 		<div class="middle">
-		<h1 class="lastLogin"> Login Now!</h1>
 	</div>
-	</div>
+	</div> -->
 
 
 </body>
